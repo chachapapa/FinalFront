@@ -30,11 +30,23 @@
 - 게시글 업로드시 스트릭 업데이트 코드
 ![streak](https://github.com/chachapapa/VueProject_Front/assets/119780428/52948bb5-d569-46eb-8eb3-337ab4a5a0dc)
 
-  연속된 스트릭을 계산하여 오늘까지 몇일을 운동하였는지 노출시켜줌.
+  연속된 스트릭을 계산하여 오늘까지 몇일을 운동하였는지 vuex의 state 내에서 수치 변경.
+</details>
+
+<details>
+<summary>2. 오늘 운동 완료 게시판 내 게시글 열람, 작성, 댓글, 좋아요, 삭제 기능</summary>
+
+- 게시글 get, post  요청
+![board_get_post](https://github.com/chachapapa/VueProject_Front/assets/119780428/fdc96cb1-2134-4454-b62b-5961eb9867e4)
+  rest-api 에게 axios 를 통해 get, post 요청을 보내는 코드 사진또한 첨부하여 aws에 저장해 게시글에 등록.
+
+- 게시글 delete 요청, 좋아요 기능
+![board_delete_like](https://github.com/chachapapa/VueProject_Front/assets/119780428/a4ef0670-0de2-4e41-ba51-ace5b9a7cd8f)
+  axios delete요청과 좋아요 클릭시 aritcleId와 userId를 넘겨주는 post, delete 요청.
+  vuex 의 state를 통해 isliked변수를 전역변수로 컨트롤하려 했으나 리렌더링이 잘 되지 않는 오류 발생.
+  이후 state 가 아닌 클릭시 props로 boolean형태의 데이터를 넘겨주어 해결.  
 </details>
 
 
-
-2. 오늘 운동 완료 게시판 내 게시글 열람, 작성, 댓글, 좋아요, 삭제 기능
 3. 운동 영상 검색, 시청, 키워드별 메뉴, 마이 메뉴
 
