@@ -27,7 +27,6 @@ const routes = [
   },
   {
     path: "/main",
-    name: "main",
     component: MainView,
     children: [
       {
@@ -60,7 +59,6 @@ const routes = [
     children: [
       {
         path: "my",
-        name: "my",
         component: HealthMy,
         children: [
           {
@@ -72,7 +70,6 @@ const routes = [
 
       {
         path: "searchresult",
-        name: "searchresult",
         component: HealthYoutubeResult,
         children: [
           {
@@ -84,7 +81,6 @@ const routes = [
 
       {
         path: "detail",
-        name: "detail",
         component: HealthYoutubeDetail,
         children: [
           {
@@ -98,7 +94,6 @@ const routes = [
 
   {
     path: "/board",
-    name: "board",
     component: BoardView,
     children: [
       {
