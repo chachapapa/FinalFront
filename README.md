@@ -5,14 +5,14 @@
 - 2인 프로젝트
 
 ## 사용 기술 스택
- #back-end
- SpringBoot
- MySQL
- Amazon Web Service 
+ # back-end
+ - SpringBoot
+ - MySQL
+ - Amazon Web Service 
  
- #front-end
- Vue
- Vuetify
+ # front-end
+ - Vue
+ - Vuetify
  
 ## ERD
 
