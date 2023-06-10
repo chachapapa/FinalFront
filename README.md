@@ -1,24 +1,13 @@
-# front
+# Fitness App Project
 
-## Project setup
-```
-npm install
-```
+## 데모 링크
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 제작 기간 / 참여 인원
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 사용 기술 스택
 
-### Lints and fixes files
-```
-npm run lint
-```
+## ERD
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 핵심 기능
+
+## 
