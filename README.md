@@ -25,7 +25,7 @@
 ## 핵심 기능
 1. 운동 게시글과 연동한 회원의 스트릭, 몸무게, 운동능력 수치 변화 관리.
 - 게시글 업로드시 스트릭 업데이트 코드
-![image](https://github.com/chachapapa/VueProject_Front/assets/119780428/bfc44570-3e01-4607-8489-19c1afb45c1d)
+![streak](https://github.com/chachapapa/VueProject_Front/assets/119780428/52948bb5-d569-46eb-8eb3-337ab4a5a0dc)
 연속된 스트릭을 계산하여 오늘까지 몇일을 운동하였는지 노출시켜줌.
 
 2. 오늘 운동 완료 게시판 내 게시글 열람, 작성, 댓글, 좋아요, 삭제 기능
