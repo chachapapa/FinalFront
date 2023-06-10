@@ -2,10 +2,10 @@
   <v-banner class="rounded-b-lg rounded-tl-0" single-line :sticky="sticky" shaped :elevation="isScrolled ? '3' : '0'"
     color="white" v-scroll="onScroll">
     <router-link to="/" style="text-decoration: none; width: 100px; display: flex" v-show="!loginUser">
-      <div class="logo">SSAFit</div>
+      <div class="logo">MSJWFit</div>
     </router-link>
     <router-link to="/main" style="text-decoration: none; width: 100px; display: flex" v-show="loginUser">
-      <div class="logo">SSAFit</div>
+      <div class="logo">MSJWFit</div>
     </router-link>
 
     <template v-slot:actions>
